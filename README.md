@@ -1,50 +1,66 @@
 # 📝 FeedbackForm App
 
 ## 📋 Project Overview
-FeedbackForm is a simple yet functional React application that collects user feedback through a user-friendly interface. This component-based app demonstrates the core principles of React, including:
 
-Component creation
+**FeedbackForm** is a simple yet functional React application that collects user feedback through a user-friendly interface. This component-based app demonstrates the core principles of React, including:
 
-Controlled form inputs
+- ✅ Component creation  
+- ✅ Controlled form inputs  
+- ✅ State management using `useState`  
+- ✅ Event handling  
+- ✅ Conditional rendering  
+- ✅ Form validation and confirmation  
 
-State management using useState
-
-Event handling
-
-Conditional rendering
-
-Form validation and confirmation
+---
 
 ## 🚀 Features
-✅ Clean and intuitive feedback form
-✅ Real-time input handling using controlled components
-✅ Confirmation prompt before submission
-✅ Responsive layout with basic CSS styling
-✅ Feedback submission with form reset and thank-you alert
+
+- ✅ Clean and intuitive feedback form  
+- ✅ Real-time input handling using controlled components  
+- ✅ Confirmation prompt before submission  
+- ✅ Responsive layout with basic CSS styling  
+- ✅ Feedback submission with form reset and thank-you alert  
+
+---
 
 ## 🛠️ Technologies Used
-React (with Hooks)
 
-JavaScript (ES6+)
+- ⚛️ React (with Hooks)  
+- 💛 JavaScript (ES6+)  
+- 🧾 HTML5  
+- 🎨 CSS3  
 
-HTML5
-
-CSS3
+---
 
 ## 💻 How It Works
-The user enters their Name, Email, and Feedback in the form.
 
-As the user types, the data is stored in React state via the useState hook.
+1. The user enters their **Name**, **Email**, and **Feedback** in the form.
+2. As the user types, the data is stored in React state via the `useState` hook.
+3. On form submission:
+   - A browser confirmation dialog shows the entered information.
+   - If the user confirms, the data is printed to the console and a thank-you alert is shown.
+   - The form resets to allow for new entries.
 
-On form submission:
+---
 
-A browser confirmation dialog shows the entered information.
+## 📸 Sample Screenshots
 
-If the user confirms, the data is printed to the console and a thank-you message is shown.
+### 🖼️ Default View
+![Default View](./screenshots/default-view.png)
 
-The form is reset for new entries.
+### ✅ Confirmation Dialog and Submission
+![Confirmation Dialog](./screenshots/confirmation-dialog.png)
 
-📸 Sample Screenshots
-📥 Default View
+> 💡 Make sure the images `default-view.png` and `confirmation-dialog.png` are inside a folder named `screenshots` in your repository.
 
-✅ Confirmation Dialog and Submission
+---
+
+## 📂 Getting Started
+
+Clone this repository and run the app locally:
+
+```bash
+git clone https://github.com/S-Mehran/Feedback-Form.git
+cd Feedback-Form
+npm install
+npm run dev
