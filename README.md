@@ -46,21 +46,12 @@
 ## 📸 Sample Screenshots
 
 ### 🖼️ Default View
-![Default View](./screenshots/default-view.png)
+![Default View](./sample_images/feedback_form1.png)
 
 ### ✅ Confirmation Dialog and Submission
-![Confirmation Dialog](./screenshots/confirmation-dialog.png)
+![Confirmation Dialog](./sample_images/feedback_form2.png)
 
-> 💡 Make sure the images `default-view.png` and `confirmation-dialog.png` are inside a folder named `screenshots` in your repository.
 
 ---
 
-## 📂 Getting Started
 
-Clone this repository and run the app locally:
-
-```bash
-git clone https://github.com/S-Mehran/Feedback-Form.git
-cd Feedback-Form
-npm install
-npm run dev
